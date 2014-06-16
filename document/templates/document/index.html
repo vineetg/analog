@@ -23,7 +23,7 @@
       <div class="page-header">
         <h1>LOG ANAlyzer</h1>
       </div>
-      <p class="lead">stuff</p>
+      <p class="lead">A smart log analyzer</p>
       <p>
         {% if latest_documents %}
           <ul>
@@ -33,14 +33,14 @@
           </ul>
         {% else %}
           <p>No documents are available.</p>
-          <p><a href="{% url 'document:create' %}">Create new</a></p>
+          <p><a href="{% url 'document:create' %}" class="btn btn-primary" role="button">Create new</a></p>
         {% endif %}
       </p>  
     </div>
 
     <div id="footer">
       <div class="container">
-         <p class="text-muted">okay</p>
+         <p class="text-muted">Sample footer</p>
       </div>
     </div>
 
